@@ -1,9 +1,10 @@
-# SightPress community
+# SightPress community helper
 
-`sightpress/plugin-community`: the official SightPress plugin for comments,
+`sightpress/plugin-community-helper`: the official SightPress plugin for comments,
 likes, share links and saved pages. Licensed GPL-2.0-or-later.
 
-> **Status:** pre-M0.
+> **Status:** M0 scaffolding in place (manifest, bundle, quality gates, CI);
+> features arrive in milestone M11.
 
 It attaches to any content type through the core's `content.after_body` slot,
 so it works on pages, articles or any other type a site has enabled — there is
@@ -32,5 +33,4 @@ npx playwright test         # every manifest route, with axe-core
 ```
 
 Check out `sightpress/core` as a sibling and require it with
-`COMPOSER=composer.dev.json composer install` to run the test kernel. The full
-plugin specification is in `plugins.md` §1.1.
+`COMPOSER=composer.dev.json composer install` to run the test kernel.
